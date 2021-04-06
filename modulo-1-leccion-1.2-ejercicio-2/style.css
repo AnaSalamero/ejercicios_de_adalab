@@ -1,0 +1,17 @@
+body {
+    font-size: 18px;
+    font-family: Tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+
+
+aside {
+    width: 10%;
+    padding-left: 15px;
+    float: right;
+    background-color: lightgray;
+}
+
