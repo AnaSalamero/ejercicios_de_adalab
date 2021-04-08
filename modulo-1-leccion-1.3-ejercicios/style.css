@@ -1,0 +1,58 @@
+body {
+  background-color: #f3f4f5;
+}
+
+h1 {
+  color: black;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+p,
+li {
+  color: #757575;
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+.pepinoycebolla {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: block;
+}
+
+.ingredientes.inline {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline;
+}
+
+.ingredientes.inline-block {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.ingredientes.none {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: none;
+}
+
+.prueba {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 5px;
+  box-sizing: border-box;
+}
+
+/* ol,ul {
+    color: #757575;
+    font-family: Georgia;
+    font-size: 18px;
+} */
