@@ -1,0 +1,14 @@
+body {
+  margin: 20px;
+}
+
+button {
+  padding: 10px;
+  border: solid coral 3px;
+  color: white;
+  background-color: orangered;
+}
+
+.hidden {
+  opacity: 0;
+}
