@@ -1,0 +1,14 @@
+header {
+  background-color: blanchedalmond;
+  position: fixed;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
