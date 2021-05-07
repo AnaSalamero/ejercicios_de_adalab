@@ -19,12 +19,6 @@ function showmovies () {
     blueVelvet = document.querySelector('.fourth');
     split = document.querySelector('.fifth');
 
-
-    function showmovieinConsole (event) {
-        let selectedmovie = event.currentTarget;
-        console.log(selectedmovie.innerHTML);
-    }
-
    inception.addEventListener('click', showmovieinConsole)
    theButterFlyEffect.addEventListener('click', showmovieinConsole)
    eternalSunshineOfTheSM.addEventListener('click', showmovieinConsole)
@@ -37,3 +31,7 @@ function showmovies () {
 btn.addEventListener('click', showmovies);
 
 
+function showmovieinConsole (event) {
+    let selectedmovie = event.currentTarget;
+    console.log(selectedmovie.innerHTML);
+}
